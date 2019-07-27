@@ -1,0 +1,21 @@
+# Site settings
+title: Closure
+repository: closu/closure
+
+# set to true to show excerpts on the homepage
+show_excerpts: false
+
+closure:
+  date_format: "%b %-d, %Y"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - script
